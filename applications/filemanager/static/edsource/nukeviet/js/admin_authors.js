@@ -1,0 +1,1 @@
+function nv_admin_add_result(a,b,c){a=document.getElementById(a);document.getElementById(b).value=2==c?"sendmail":"savefile";a.submit();return!1}function nv_admin_edit_result(a,b,c){a=document.getElementById(a);document.getElementById(b).value=2==c?"sendmail":"savefile";a.submit();return!1};

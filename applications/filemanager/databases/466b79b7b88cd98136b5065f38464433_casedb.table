@@ -1,0 +1,30 @@
+(dp1
+S'description'
+p2
+S'LONGTEXT'
+p3
+sS'extracted_path'
+p4
+S'VARCHAR(512)'
+p5
+sS'datasource_path'
+p6
+S'VARCHAR(512)'
+p7
+sS'matter'
+p8
+S'VARCHAR(128)'
+p9
+sS'id'
+p10
+S'INT AUTO_INCREMENT NOT NULL'
+p11
+sS'clientname'
+p12
+S'VARCHAR(256)'
+p13
+sS'name'
+p14
+S'VARCHAR(128) NOT NULL'
+p15
+s.

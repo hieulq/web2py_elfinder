@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//applications/examples/controllers/default.py=utf-8
+encoding//applications/filemanager/controllers/appadmin.py=utf-8
+encoding//applications/filemanager/controllers/default.py=utf-8
+encoding//applications/filemanager/controllers/default_bak.py=utf-8
+encoding//applications/first/controllers/default.py=utf-8
+encoding//applications/first/models/db.py=utf-8
+encoding//applications/first/models/menu.py=utf-8
+encoding//applications/pitch/controllers/default.py=utf-8
+encoding//applications/pitch/models/db.py=utf-8
+encoding//applications/welcome/controllers/default.py=utf-8
+encoding//gluon/globals.py=utf-8
+encoding//gluon/tools.py=utf-8
+encoding/web2py.py=utf-8

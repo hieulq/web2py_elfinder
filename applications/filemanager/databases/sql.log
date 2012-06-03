@@ -1,0 +1,90 @@
+timestamp: 2010-05-08T01:36:44.568623
+ALTER TABLE cdsdata ADD extracted__tmp LONGTEXT;
+success!
+UPDATE cdsdata SET extracted__tmp=extracted;
+success!
+ALTER TABLE cdsdata DROP COLUMN extracted;
+success!
+ALTER TABLE cdsdata ADD extracted LONGTEXT;
+success!
+UPDATE cdsdata SET extracted=extracted__tmp;
+success!
+ALTER TABLE cdsdata DROP COLUMN extracted__tmp;
+success!
+timestamp: 2010-06-16T04:57:59.018947
+CREATE TABLE casedb(
+    id INT AUTO_INCREMENT NOT NULL,
+    name LONGTEXT NOT NULL,
+    matter VARCHAR(128),
+    description LONGTEXT,
+    clientname VARCHAR(256),
+    datasource_path LONGTEXT,
+    extracted_path LONGTEXT,
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2010-06-16T05:03:24.290231
+ALTER TABLE casedb ADD description__tmp VARCHAR(512);
+success!
+UPDATE casedb SET description__tmp=description;
+success!
+ALTER TABLE casedb DROP COLUMN description;
+success!
+ALTER TABLE casedb ADD description VARCHAR(512);
+success!
+UPDATE casedb SET description=description__tmp;
+success!
+ALTER TABLE casedb DROP COLUMN description__tmp;
+success!
+timestamp: 2010-06-16T05:03:25.831123
+ALTER TABLE casedb ADD extracted_path__tmp VARCHAR(512);
+success!
+UPDATE casedb SET extracted_path__tmp=extracted_path;
+success!
+ALTER TABLE casedb DROP COLUMN extracted_path;
+success!
+ALTER TABLE casedb ADD extracted_path VARCHAR(512);
+success!
+UPDATE casedb SET extracted_path=extracted_path__tmp;
+success!
+ALTER TABLE casedb DROP COLUMN extracted_path__tmp;
+success!
+timestamp: 2010-06-16T05:03:27.224143
+ALTER TABLE casedb ADD datasource_path__tmp VARCHAR(512);
+success!
+UPDATE casedb SET datasource_path__tmp=datasource_path;
+success!
+ALTER TABLE casedb DROP COLUMN datasource_path;
+success!
+ALTER TABLE casedb ADD datasource_path VARCHAR(512);
+success!
+UPDATE casedb SET datasource_path=datasource_path__tmp;
+success!
+ALTER TABLE casedb DROP COLUMN datasource_path__tmp;
+success!
+timestamp: 2010-06-16T05:03:28.639434
+ALTER TABLE casedb ADD name__tmp VARCHAR(128) NOT NULL DEFAULT 'NULL';
+success!
+UPDATE casedb SET name__tmp=name;
+success!
+ALTER TABLE casedb DROP COLUMN name;
+success!
+ALTER TABLE casedb ADD name VARCHAR(128) NOT NULL DEFAULT 'NULL';
+success!
+UPDATE casedb SET name=name__tmp;
+success!
+ALTER TABLE casedb DROP COLUMN name__tmp;
+success!
+timestamp: 2010-06-16T05:06:44.683519
+ALTER TABLE casedb ADD description__tmp LONGTEXT;
+success!
+UPDATE casedb SET description__tmp=description;
+success!
+ALTER TABLE casedb DROP COLUMN description;
+success!
+ALTER TABLE casedb ADD description LONGTEXT;
+success!
+UPDATE casedb SET description=description__tmp;
+success!
+ALTER TABLE casedb DROP COLUMN description__tmp;
+success!
